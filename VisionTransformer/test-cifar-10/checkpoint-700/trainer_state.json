@@ -1,0 +1,46 @@
+{
+  "best_metric": 0.956,
+  "best_model_checkpoint": "test-cifar-10\\checkpoint-350",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 700,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.956,
+      "eval_loss": 0.18157047033309937,
+      "eval_runtime": 105.8774,
+      "eval_samples_per_second": 4.722,
+      "eval_steps_per_second": 1.181,
+      "step": 350
+    },
+    {
+      "epoch": 1.43,
+      "grad_norm": 11.671242713928223,
+      "learning_rate": 1.0476190476190477e-05,
+      "loss": 0.2238,
+      "step": 500
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.954,
+      "eval_loss": 0.16747182607650757,
+      "eval_runtime": 138.7003,
+      "eval_samples_per_second": 3.605,
+      "eval_steps_per_second": 0.901,
+      "step": 700
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 1050,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "total_flos": 1.917539259052032e+18,
+  "train_batch_size": 10,
+  "trial_name": null,
+  "trial_params": null
+}
